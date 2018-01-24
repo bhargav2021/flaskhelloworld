@@ -1,6 +1,6 @@
 import numpy
 from flask import Flask
-from pandas import pandas
+import pandas
 app = Flask(__name__)
 
 @app.route('/')
