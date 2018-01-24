@@ -1,1 +1,1 @@
-cmake
+scikit-build
