@@ -1,7 +1,6 @@
 from flask import Flask
 from pandas import pandas
 from numpy import numpy
-from boost import boost
 app = Flask(__name__)
 
 @app.route('/')
