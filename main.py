@@ -1,4 +1,4 @@
-from numpy import numpy
+import numpy
 from flask import Flask
 from pandas import pandas
 app = Flask(__name__)
