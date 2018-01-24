@@ -1,5 +1,1 @@
-Flask==0.12.1
-pandas
-numpy
-boost
-build-essential
+build-essential cmake
