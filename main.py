@@ -7,13 +7,13 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-  return render_template(values.html)
+  return render_template("values.html")
 
 
 @app.route('/predict')
 def predict():
-   clf  = joblib.load(models_dir + model + "/" + model + ".pkl")
-   m =clf.predict([[1st value , 2nd value]])
+   clf  = joblib.load("two_values_model.pkl")
+   m =clf.predict([[value , 2nd value]])
    return m
 
 
